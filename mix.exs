@@ -17,7 +17,7 @@ defmodule PhoenixEjabberd.Mixfile do
   # Type `mix help compile.app` for more information.
   def application do
     [mod: {PhoenixEjabberd, []},
-     applications: [:phoenix, :phoenix_pubsub, :phoenix_html, :cowboy, :logger, :gettext]]
+     applications: [:phoenix, :phoenix_pubsub, :phoenix_html, :cowboy, :logger, :gettext, :ejabberd]]
   end
 
   # Specifies which paths to compile per environment.
@@ -33,6 +33,7 @@ defmodule PhoenixEjabberd.Mixfile do
      {:phoenix_html, "~> 2.6"},
      {:phoenix_live_reload, "~> 1.0", only: :dev},
      {:gettext, "~> 0.11"},
+     {:ejabberd, "~> 16.8.0"},
      {:cowboy, "~> 1.0"}]
   end
 end
