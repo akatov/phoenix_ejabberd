@@ -4,6 +4,8 @@ elixir:
 otp_release:
 - 18.2
 sudo: false
+before_script:
+- mix compile
 deploy:
   provider: heroku
   api_key:
