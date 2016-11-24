@@ -4,12 +4,3 @@ elixir:
 otp_release:
 - 18.3
 sudo: false
-before_script:
-- mix compile
-deploy:
-  provider: heroku
-  api_key:
-    secure: Ku/a7nblLb44hruchTbm02fwcgQp0uVaiRXeLzFUXutcH7+Tv0a3ZJuIjz7VzgOTxxitZnCJIItcKwh/2+cm2B4MqnIrzyEF+hEK6gjSRP5lmPSyf5LmfsK2/aWXo34j++MaeKf5lVl8c8MVDVNmVLidBcCBhdMtcR4B1s3nfY8xvSt10FbHQlrEqydDwrbVrp5F3UfYDWcrVeNMo0VkSaZ6pXSCqqH0iL4GDfpe1bAJn7qE7uco5z0tuHEW41w6M4kWNUbqp7OHvxzbTAT0G3R6IkqBDQpIaks+JkRzhVMPUtxK3CIEbNvDH658Ld+tjjPihWUTHhUm+r4pg6V16kuGoHweL142/heF6JENXDNbh/ZKNnCWDozPm0rem8O86e7q0PI8Yx7YVmswmfG3eqmAdyNESrhXjYaoIKgorzI+0xEFFnyO0qHJs0DRXX9K8Z+tyHTHpFlMWYJR9bRUZsSl3ygFtn+k+vJMvi1SfbqEkvNV79leFM2NAhjrLaqqwpXxZkB4E5w8ibFZwEzVRyjg24vfpID3P1rl/vRC/4noIlVEP8/SX2KXOzDCECRtyAvRPzt0mtDfuYa1EjkGruOBU/xp7/15jvpt/SXpGOk4mQ1OKJ3XRnL+JYlJjShYMULYr//IVgfJcgkwmo8YeOhDEghJJJsZrzmSahK1LS8=
-  app: gentle-lowlands-69094
-  on:
-    repo: akatov/phoenix_ejabberd
